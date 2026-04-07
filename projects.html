@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects</title>
+  <link rel="stylesheet" href="assets/java/style.css" />
+</head>
+<body>
+
+<nav>
+  <div class="logo">MyPortfolio</div>
+
+  <div class="menu-toggle" onclick="toggleMenu()">
+    <div></div><div></div><div></div>
+  </div>
+
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="skills.html">Skills</a></li>
+    <li><a href="projects.html" class="active">Projects</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<section class="hero">
+  <div class="container" style="max-width: 900px;">
+    <h1>Projects</h1>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center;">
+
+      <!-- Portfolio Website Project -->
+      <div style="background:#0f172a; padding: 20px; border-radius: 12px; box-shadow: 0 8px 20px rgba(0,0,0,0.5); flex: 1 1 300px; max-width: 400px;">
+        <img src="assets/images/portfolio.png" alt="Project 1" style="width: 100%; border-radius: 10px;"/>
+        <h3>Portfolio Website</h3>
+        <p>A responsive portfolio website built with HTML, CSS, and JavaScript, showcasing projects, skills, and contact information.</p>
+        
+      </div>
+
+      <!-- Grading System Project -->
+      <div style="background:#0f172a; padding: 20px; border-radius: 12px; box-shadow: 0 8px 20px rgba(0,0,0,0.5); flex: 1 1 300px; max-width: 400px;">
+        <img src="assets/images/GRADING SYSTEM.png" alt="Grading System Project" style="width: 100%; border-radius: 10px;"/>
+        <h3>Grading System</h3>
+        <p>A grading system web application that allows teachers to input student scores, automatically calculates grades, and generates performance reports. Built with HTML, CSS, and JavaScript for dynamic interaction and responsive design.</p>
+        
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<script src="assets/java/script.js"></script>
+<script>
+function toggleMenu() {
+  document.querySelector(".nav-links").classList.toggle("active");
+}
+</script>
+
+</body>
+</html>
